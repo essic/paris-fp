@@ -22,7 +22,7 @@ Le compilateur LLVM toolchain peut être installé via le gestionnaire de paquet
 du système. Sur Debian Variantes:
 
 ```bash
-$ sudo apt-get install llvm3.5 llvm3.5-dev
+$ sudo apt-get install llvm-3.5 llvm-3.5-dev
 ```
 
 Vérifier
@@ -40,6 +40,8 @@ variantes:
 ```bash
 $ sudo apt-get install z3 libz3-dev
 ```
+
+Le paquet existe sous Ubuntu mais n'est valable que sur l'unstable de Debian.
 
 Vérifier
 
